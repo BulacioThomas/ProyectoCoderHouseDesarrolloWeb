@@ -9,38 +9,13 @@
   }
   /* INICIO DE PAGINA INDEX */
   /* contenido header */
-  .main__header {
-    background-image: url(../img/motofondo.jpg);
-    background-size: cover;
-    color: bisque;
-    font-size: normal;
-    font-size: 15px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-    position: fixed;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
+
   
   ul,
   ol {
     list-style: none;
   }
-  .main__header__nav {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 15px;
-  }
-  .main__header__nav li {
-    padding-left: 20px;
-  }
-  a {
-    color: bisque;
-    text-decoration: none;
-  }
+  
   /* fin de contenido header */
   
   /* contenido principal */
@@ -85,6 +60,8 @@
     align-items: center;
     width: 100%;
     animation: movimientoimgprincipal 2.5s linear infinite;
+    
+    
   }
   .main__objetivo__mision {
     display: grid;
@@ -473,10 +450,6 @@
   /* fin keyframes */
   
   @media (min-width: 768px) {
-    .main__header {
-      flex-direction: row;
-      justify-content: space-around;
-    }
     .main__segundo__subtitulo {
       margin-top: -80px;
     }
@@ -484,48 +457,7 @@
   
   @media (min-width: 992px) {
     /* contenido header */
-    .main__header {
-      font-size: normal;
-      font-size: 15px;
-      font-family: Georgia, "Times New Roman", Times, serif;
-      position: fixed;
-      width: 100vw;
-      height: 20%;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around;
-    }
-    .main__header nav {
-      width: 600px;
-    }
-    .main__header__nav {
-      display: flex;
-      justify-content: space-between;
-    }
-  
-    .main__header__h2 {
-      display: flex;
-    }
-  
-    .main__header-buttom {
-      border: 1px solid bisque;
-      border-radius: 40px;
-      padding: 10px;
-    }
-    .main__header ul {
-      font-size: medium;
-    }
-    .main__header ul li {
-      position: relative;
-      padding-left: 10px;
-    }
-    .main__header ul ul {
-      display: none;
-      position: absolute;
-      width: 70px;
-      padding-left: 15px;
-      padding-bottom: 15px;
-    }
+    
     /* fin de contenido header */
   
     /* contenido principal */
