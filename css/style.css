@@ -8,8 +8,6 @@ body {
   background: linear-gradient(to left, #f2fcfe, #1c92d2); }
 
 /* INICIO DE PAGINA INDEX */
-/* contenido header */
-/* fin de contenido header */
 /* contenido principal */
 .main__primer__titulo {
   color: blue;
@@ -36,7 +34,7 @@ body {
 .main__primer__parrafo {
   color: rebeccapurple;
   font-style: normal;
-  font-size: 25px;
+  font-size: 5px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
@@ -421,29 +419,37 @@ input[type="submit"]:hover {
     margin-top: -80px; } }
 
 @media (min-width: 992px) {
-  /* contenido header */
-  /* fin de contenido header */
   /* contenido principal */
   .main__primer__titulo {
     padding: 180px 30px 45px; }
   .main__segundo__subtitulo {
     margin-top: -5%; }
   .main__primer__parrafo {
-    font-size: 3rem; }
+    font-size: 22px; }
   .main__objetivo__mision {
-    padding-left: 40px; }
+    padding-left: 70px; }
   .main__mision {
-    font-size: 3rem;
+    font-size: 22px;;
     height: 100vh; }
   .main__objetivo {
-    font-size: 3rem;
-    height: 100vh; }
+    font-size: 22px;
+    height: 20vh; }
   /* fin de contenido principal */
   /* inicio de contenido servicios */
   .section__servicios__lista {
-    font-size: 30px;
+    font-size: 20px;
     line-height: 1.6; }
   /* fin de contenido servicios */
+  /* contenido zonas */
+  .section__zonas__p {
+    font-size: 20px;
+  }
+  /* fin contenido zonas */
+  /* contenido contacto */
+  .section__contacto__parrafo {
+    font-size: 20px;
+  }
+  /* fin de contenido contacto */
   form {
     margin-left: 130px; }
   /* incio de contenido footer */
