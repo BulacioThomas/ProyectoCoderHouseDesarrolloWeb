@@ -9,7 +9,6 @@ body {
 
 /* INICIO DE PAGINA INDEX */
 /* contenido header */
-
 /* fin de contenido header */
 /* contenido principal */
 .main__primer__titulo {
@@ -423,7 +422,6 @@ input[type="submit"]:hover {
 
 @media (min-width: 992px) {
   /* contenido header */
-
   /* fin de contenido header */
   /* contenido principal */
   .main__primer__titulo {
