@@ -1,11 +1,13 @@
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+}
 
 body {
   background: #1c92d2;
   background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);
-  background: linear-gradient(to left, #f2fcfe, #1c92d2); }
+  background: linear-gradient(to left, #f2fcfe, #1c92d2);
+}
 
 /* INICIO DE PAGINA INDEX */
 /* contenido principal */
@@ -18,7 +20,8 @@ body {
   font-weight: normal;
   padding: 80px 30px 45px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .main__segundo__subtitulo {
   color: blue;
@@ -29,7 +32,8 @@ body {
   font-weight: normal;
   margin-top: -20%;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .main__primer__parrafo {
   color: rebeccapurple;
@@ -41,7 +45,8 @@ body {
   font-weight: normal;
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .main__principal__img {
   display: flex;
@@ -49,38 +54,45 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  animation: movimientoimgprincipal 2.5s linear infinite; }
+  animation: movimientoimgprincipal 2.5s linear infinite;
+}
 
 .main__objetivo__mision {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  padding: 5px; }
+  padding: 5px;
+}
 
 .main__mision {
   color: rebeccapurple;
   font-style: normal;
   font-size: 13px;
-  font-family: "OpenSansL"; }
+  font-family: "OpenSansL";
+}
 
 .main__mision h2 {
-  color: #1668c4; }
+  color: #1668c4;
+}
 
 .main__objetivo {
   color: rebeccapurple;
   font-style: normal;
   font-size: 13px;
-  font-family: "OpenSansL"; }
+  font-family: "OpenSansL";
+}
 
 .main__objetivo h2 {
-  color: #1668c4; }
+  color: #1668c4;
+}
 
 /* fin de contenido principal */
 /* contenido servicios */
 .section__servicios {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  align-items: center;
+}
 
 .section__servicios__titulo {
   color: blue;
@@ -88,7 +100,8 @@ body {
   font-size: 3rem;
   font-family: "Sanseriffic";
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .section__servicios__lista {
   color: rebeccapurple;
@@ -97,15 +110,18 @@ body {
   font-family: "OpenSansL";
   line-height: 1.4;
   font-weight: normal;
-  transition: all 0.3s; }
+  transition: all 0.3s;
+}
 
 .section__servicios__lista:hover {
-  transform: scale(1.5); }
+  transform: scale(1.5);
+}
 
 /* fin de contenido servicios */
 /* contenido tarifas */
 .section__tarifas {
-  padding: 30px 15px; }
+  padding: 30px 15px;
+}
 
 .section__tarifas__titulo {
   color: blue;
@@ -117,11 +133,13 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+}
 
 .section__tarifa_tabla {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 .section__tabla__titulos {
   color: rebeccapurple;
@@ -130,7 +148,8 @@ body {
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 td {
   color: rebeccapurple;
@@ -139,7 +158,8 @@ td {
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 /* fin de contenido tarifa */
 /* contenido zonas */
@@ -151,7 +171,8 @@ td {
   line-height: 1.6;
   font-weight: normal;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .section__zonas__titulo {
   color: blue;
@@ -161,16 +182,19 @@ td {
   line-height: 1.6;
   font-weight: normal;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .section__zonas__p {
   display: flex;
   flex-direction: column;
   align-items: center;
-  transition: all 0.4s; }
+  transition: all 0.4s;
+}
 
 .section__zonas__p:hover {
-  transform: scale(1.5); }
+  transform: scale(1.5);
+}
 
 .section__zonas__a {
   color: blue;
@@ -181,16 +205,19 @@ td {
   font-weight: normal;
   padding: 12px;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .zonas__mapa {
-  width: 100%; }
+  width: 100%;
+}
 
 /* fin de contenido zonas */
 /* contenido contacto */
 .section__contacto {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .section__contacto__titulo {
   color: blue;
@@ -200,7 +227,8 @@ td {
   line-height: 1.6;
   font-weight: normal;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .section__contacto__parrafo {
   color: rebeccapurple;
@@ -209,7 +237,8 @@ td {
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 form {
   color: rebeccapurple;
@@ -224,17 +253,20 @@ form {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  justify-content: center; }
+  justify-content: center;
+}
 
 label {
   font-size: 20px;
   display: block;
-  width: 100%; }
+  width: 100%;
+}
 
 textarea {
   resize: vertical;
   max-height: 300px;
-  min-height: 100px; }
+  min-height: 100px;
+}
 
 input,
 textarea {
@@ -244,21 +276,25 @@ textarea {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid #ccc; }
+  border: 1px solid #ccc;
+}
 
 input:focus,
 textarea:focus {
-  border: 1px solid #1668c4; }
+  border: 1px solid #1668c4;
+}
 
 input[type="submit"] {
   margin-bottom: 0;
   background-color: #1668c4;
   color: #fff;
-  border: none; }
+  border: none;
+}
 
 input[type="submit"]:hover {
   background: #74a8e4;
-  cursor: pointer; }
+  cursor: pointer;
+}
 
 /* fin de contenido contacto */
 /* incio de contenido footer */
@@ -274,13 +310,15 @@ input[type="submit"]:hover {
   line-height: 1.6;
   font-weight: normal;
   display: flex;
-  width: 100%; }
+  width: 100%;
+}
 
 .section__footer__redes {
   display: flex;
   justify-content: center;
   width: 100%;
-  animation: movimientoredesindex 2.5s linear infinite; }
+  animation: movimientoredesindex 2.5s linear infinite;
+}
 
 .footer__instagram {
   color: rebeccapurple;
@@ -293,7 +331,8 @@ input[type="submit"]:hover {
   margin-left: 10px;
   display: flex;
   align-items: start;
-  width: 33%; }
+  width: 33%;
+}
 
 .footer__gmail {
   color: rebeccapurple;
@@ -307,7 +346,8 @@ input[type="submit"]:hover {
   padding-left: 10px;
   display: flex;
   align-items: start;
-  width: 33%; }
+  width: 33%;
+}
 
 .footer__facebook {
   color: rebeccapurple;
@@ -320,7 +360,8 @@ input[type="submit"]:hover {
   margin-left: 20px;
   display: flex;
   align-items: start;
-  width: 33%; }
+  width: 33%;
+}
 
 /* fin de contenido footer */
 /* FIN DE PAGINA INDEX */
@@ -328,7 +369,8 @@ input[type="submit"]:hover {
 .pagina__contacto {
   display: flex;
   flex-direction: column;
-  margin-top: 60px; }
+  margin-top: 60px;
+}
 
 .contacto__titulo {
   color: blue;
@@ -338,7 +380,8 @@ input[type="submit"]:hover {
   line-height: 1.6;
   font-weight: normal;
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .contacto__parrafo {
   color: rebeccapurple;
@@ -347,10 +390,12 @@ input[type="submit"]:hover {
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .contacto__form {
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
 .contacto__footer {
   background-image: url(../img/mensajeria.png);
@@ -365,80 +410,114 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   margin: 10px;
-  padding-left: 20px; }
+  padding-left: 20px;
+}
 
 .contacto__footer__redes {
   display: flex;
   flex-direction: column;
-  animation: movimientoredescontacto 2.5s linear infinite; }
+  animation: movimientoredescontacto 2.5s linear infinite;
+}
 
 .contacto__redes__instagram {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .contacto__redes__gmail {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 .contacto__redes__facebook {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+}
 
 /* FIN DE PAGINA CONTACTO */
 /* keyframes */
 @keyframes movimientoredesindex {
   0% {
-    transform: translateY(0); }
+    transform: translateY(0);
+  }
   50% {
-    transform: translateY(20px); }
+    transform: translateY(20px);
+  }
   100% {
-    transform: translateY(0); } }
+    transform: translateY(0);
+  }
+}
 
 @keyframes movimientoredescontacto {
   0% {
-    transform: translateY(0); }
+    transform: translateY(0);
+  }
   50% {
-    transform: translateY(5px); }
+    transform: translateY(5px);
+  }
   100% {
-    transform: translateY(0); } }
+    transform: translateY(0);
+  }
+}
 
 @keyframes movimientoimgprincipal {
   0% {
-    transform: translateY(0); }
+    transform: translateY(0);
+  }
   50% {
-    transform: translateY(10px); }
+    transform: translateY(10px);
+  }
   100% {
-    transform: translateY(0); } }
+    transform: translateY(0);
+  }
+}
 
 /* fin keyframes */
 @media (min-width: 768px) {
   .main__header {
     flex-direction: row;
-    justify-content: space-around; }
+    justify-content: space-around;
+  }
   .main__segundo__subtitulo {
-    margin-top: -80px; } }
+    margin-top: -80px;
+  }
+}
 
 @media (min-width: 992px) {
   /* contenido principal */
   .main__primer__titulo {
-    padding: 180px 30px 45px; }
+    margin-top: -70px;
+    padding: 180px 30px 45px;
+  }
   .main__segundo__subtitulo {
-    margin-top: -5%; }
+    margin-top: -5%;
+  }
   .main__primer__parrafo {
-    font-size: 22px; }
+    font-size: 22px;
+  }
   .main__objetivo__mision {
-    padding-left: 70px; }
+    padding-left: 70px;
+    height: 80vh;
+  }
   .main__mision {
-    font-size: 22px;;
-    height: 100vh; }
+    font-size: 22px;
+    height: 90vh;
+  }
+  .h2__mision {
+    font-size: 70px;
+  }
   .main__objetivo {
     font-size: 22px;
-    height: 20vh; }
+  }
+  .h2__objetivo {
+    font-size: 70px;
+  }
   /* fin de contenido principal */
   /* inicio de contenido servicios */
   .section__servicios__lista {
     font-size: 20px;
-    line-height: 1.6; }
+    line-height: 1.6;
+  }
   /* fin de contenido servicios */
   /* contenido zonas */
   .section__zonas__p {
@@ -451,24 +530,29 @@ input[type="submit"]:hover {
   }
   /* fin de contenido contacto */
   form {
-    margin-left: 130px; }
+    margin-left: 130px;
+  }
   /* incio de contenido footer */
   .footer__instagram {
     font-size: 15px;
-    width: 20%; }
+    width: 20%;
+  }
   .footer__gmail {
     font-size: 15px;
     font-family: "Sanseriffic";
     margin-left: 10px;
-    width: 20%; }
+    width: 20%;
+  }
   .footer__facebook {
     font-size: 15px;
-    margin-left: 15px;
-    width: 20%; }
+    margin-left: 130px;
+    width: 20%;
+  }
   /* fin de contenido footer */
   /* INICIO DE PAGINA CONTACTO */
   .contacto__form {
-    margin-left: 150px; }
+    margin-left: 150px;
+  }
   .contacto__footer {
     background-image: url(../img/mensajeria.png);
     background-repeat: no-repeat;
@@ -483,14 +567,16 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 0; }
+    margin: 0;
+  }
   .contacto__footer__redes {
     display: flex;
     flex-direction: row;
     justify-content: center;
     width: 100%;
     animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px; }
+    margin-left: 200px;
+  }
   .contacto__redes__instagram {
     color: rebeccapurple;
     font-style: normal;
@@ -503,7 +589,8 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: start;
-    width: 33%; }
+    width: 33%;
+  }
   .contacto__redes__gmail {
     color: rebeccapurple;
     font-style: normal;
@@ -517,7 +604,8 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: start;
-    width: 33%; }
+    width: 33%;
+  }
   .contacto__redes__facebook {
     color: rebeccapurple;
     font-style: normal;
@@ -530,49 +618,486 @@ input[type="submit"]:hover {
     display: flex;
     flex-direction: row;
     align-items: start;
-    width: 33%; }
+    width: 33%;
+  }
   @keyframes movimientoredescontacto {
     0% {
-      transform: translateY(0); }
+      transform: translateY(0);
+    }
     50% {
-      transform: translateY(20px); }
+      transform: translateY(20px);
+    }
     100% {
-      transform: translateY(0); } }
+      transform: translateY(0);
+    }
+  }
   /* FIN DE PAGINA CONTACTO */
+  /* PAGINA NOSOTROS */
+  .nosotros__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .nosotros__item h1 {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+  }
+  .nosotros__item h2 {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .nosotros__item p {
+    color: rebeccapurple;
+    font-size: 18px;
+    font-family: "OpenSansL";
+  }
+  .nosotros__item__img {
+    animation: movimientoimgprincipal 2.5s linear infinite;
+  }
+  .nosotros__objetivo__mision {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+  }
+  .nosotros__objetivo__mision h2 {
+    color: #1668c4;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+  }
+  .nosotros__objetivo__mision p {
+    color: rebeccapurple;
+    font-size: 18px;
+    font-family: "OpenSansL";
+    line-height: 1.6;
+  }
+  .nosotros__footer {
+    background-image: url(../img/mensajeria.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+  .nosotros__footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    animation: movimientoredescontacto 2.5s linear infinite;
+    margin-left: 200px;
+  }
+  .nosotros__redes__instagram {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .nosotros__redes__gmail {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .nosotros__redes__facebook {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+
+  /* FIN DE PAGINA NOSOTROS */
+
+  /* PAGINA SERVICIOS */
+  .servicios__section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 90px;
+  }
+  .servicios__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+  }
+  .servicios__lista {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "OpenSansL";
+    line-height: 1.4;
+    font-weight: normal;
+    transition: all 0.3s;
+  }
+  .servicios__lista:hover {
+    transform: scale(1.5);
+  }
+  .servicios__footer {
+    background-image: url(../img/mensajeria.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+  .servicios__footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    animation: movimientoredescontacto 2.5s linear infinite;
+    margin-left: 200px;
+  }
+  .servicios__redes__instagram {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .servicios__redes__gmail {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .servicios__redes__facebook {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  /* FIN DE PAGINA SERVCIOS*/
+
+  /* PAGINA TARIFAS */
+  .tarifas__pagina {
+    padding: 70px 15px;
+  }
+  .tarifas__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .tarifas__tabla {
+    width: 100%;
+    height: 100%;
+  }
+  .tarifas__titulos__tabla {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "OpenSansL";
+    text-align: center;
+    line-height: 1.6;
+    font-weight: normal;
+  }
+  td {
+    font-size: 15px;
+  }
+  .tarifas__footer {
+    background-image: url(../img/mensajeria.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+  .tarifas__footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    animation: movimientoredescontacto 2.5s linear infinite;
+    margin-left: 200px;
+  }
+  .tarifas__redes__instagram {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .tarifas__redes__gmail {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .tarifas__redes__facebook {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  /* FIN DE PAGINA TARIFAS */
+
+  /* PAGINA ZONAS */
+  .pagina__zonas {
+    color: rebeccapurple;
+    font-style: normal;
+    font-family: "OpenSansL";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+  }
+  .zonas__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+  }
+  .pagina__zonas p{
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s;
+
+  }
+  .pagina__zonas p:hover{
+    transform: scale(1.5);
+  }
+  .zonas__footer {
+    background-image: url(../img/mensajeria.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 40vh;
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0;
+  }
+  .zonas__footer__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    animation: movimientoredescontacto 2.5s linear infinite;
+    margin-left: 200px;
+  }
+  .zonas__redes__instagram {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .zonas__redes__gmail {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 15px;
+    margin-left: 30px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  .zonas__redes__facebook {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 7px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    margin-bottom: 3px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 33%;
+  }
+  /* FIN DE PAGINA ZONAS */
   /* FUENTES */
   @font-face {
     font-family: "carbon";
     src: url(../fonts/CARBON-DROID.ttf);
     font-style: normal;
-    font-weight: 200; }
+    font-weight: 200;
+  }
   @font-face {
     font-family: "omel";
     src: url(../fonts/Omelette.ttf);
     font-style: normal;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   @font-face {
     font-family: "Masking";
     src: url(../fonts/MaskiNgSchOOL.ttf);
     font-style: normal;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   @font-face {
     font-family: "Sanseriffic";
     src: url(../fonts/Sanseriffic.ttf);
     font-style: normal;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   @font-face {
     font-family: "OpenSansR";
     src: url(../fonts/OpenSans-Regular.ttf);
     font-style: normal;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   @font-face {
     font-family: "OpenSansB";
     src: url(../fonts/OpenSans-Bold.ttf);
     font-style: normal;
-    font-weight: normal; }
+    font-weight: normal;
+  }
   @font-face {
     font-family: "OpenSansL";
     src: url(../fonts/OpenSans-Light.ttf);
     font-style: normal;
-    font-weight: normal; }
-  /* fin de fuentes */ }
+    font-weight: normal;
+  }
+  /* fin de fuentes */
+}
