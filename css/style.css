@@ -299,70 +299,6 @@ input[type="submit"]:hover {
 
 /* fin de contenido contacto */
 /* incio de contenido footer */
-.section__footer {
-  background-image: url(../img/mensajeria.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 40vh;
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 40px;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  display: flex;
-  width: 100%;
-}
-
-.section__footer__redes {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  animation: movimientoredesindex 2.5s linear infinite;
-}
-
-.footer__instagram {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 7px;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  margin-bottom: 15px;
-  margin-left: 10px;
-  display: flex;
-  align-items: start;
-  width: 33%;
-}
-
-.footer__gmail {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 7px;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  margin-bottom: 15px;
-  margin-left: 30px;
-  padding-left: 10px;
-  display: flex;
-  align-items: start;
-  width: 33%;
-}
-
-.footer__facebook {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 7px;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  margin-bottom: 3px;
-  margin-left: 20px;
-  display: flex;
-  align-items: start;
-  width: 33%;
-}
 
 /* fin de contenido footer */
 /* FIN DE PAGINA INDEX */
@@ -398,41 +334,36 @@ input[type="submit"]:hover {
   margin-left: 30px;
 }
 
-.contacto__footer {
-  background-image: url(../img/mensajeria.png);
-  background-repeat: no-repeat;
-  background-position: center center;
-  height: 65vh;
-  color: rebeccapurple;
-  font-style: normal;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  margin: 10px;
-  padding-left: 20px;
+.sfooter {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 400;
+  padding: 40px 0;
 }
-
-.contacto__footer__redes {
-  display: flex;
-  flex-direction: column;
+.sfooter .social {
+  text-align: center;
+  padding-bottom: 25px;
   animation: movimientoredescontacto 2.5s linear infinite;
 }
-
-.contacto__redes__instagram {
-  display: flex;
-  flex-direction: column;
+.sfooter .social a {
+  font-size: 24px;
+  border: 1px solid;
+  width: 40px;
+  height: 40px;
+  line-height: 38px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  margin: 0 30px;
+  opacity: 0.75;
 }
-
-.contacto__redes__gmail {
-  display: flex;
-  flex-direction: column;
+.sfooter .social a:hover {
+  opacity: 0.9;
 }
-
-.contacto__redes__facebook {
-  display: flex;
-  flex-direction: column;
+.sfooter .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 13px;
+  color: rebeccapurple;
 }
 
 /* FIN DE PAGINA CONTACTO */
@@ -534,93 +465,12 @@ input[type="submit"]:hover {
     margin-left: 130px;
   }
   /* incio de contenido footer */
-  .footer__instagram {
-    font-size: 15px;
-    width: 20%;
-  }
-  .footer__gmail {
-    font-size: 15px;
-    font-family: "Sanseriffic";
-    margin-left: 10px;
-    width: 20%;
-  }
-  .footer__facebook {
-    font-size: 15px;
-    margin-left: 130px;
-    width: 20%;
-  }
   /* fin de contenido footer */
   /* INICIO DE PAGINA CONTACTO */
   .contacto__form {
     margin-left: 150px;
   }
-  .contacto__footer {
-    background-image: url(../img/mensajeria.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40vh;
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 40px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-  .contacto__footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px;
-  }
-  .contacto__redes__instagram {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .contacto__redes__gmail {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .contacto__redes__facebook {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 3px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
+
   @keyframes movimientoredescontacto {
     0% {
       transform: translateY(0);
@@ -689,73 +539,6 @@ input[type="submit"]:hover {
     font-family: "OpenSansL";
     line-height: 1.6;
   }
-  .nosotros__footer {
-    background-image: url(../img/mensajeria.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40vh;
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 40px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-  .nosotros__footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px;
-  }
-  .nosotros__redes__instagram {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .nosotros__redes__gmail {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .nosotros__redes__facebook {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 3px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
 
   /* FIN DE PAGINA NOSOTROS */
 
@@ -787,73 +570,7 @@ input[type="submit"]:hover {
   .servicios__lista:hover {
     transform: scale(1.5);
   }
-  .servicios__footer {
-    background-image: url(../img/mensajeria.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40vh;
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 40px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-  .servicios__footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px;
-  }
-  .servicios__redes__instagram {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .servicios__redes__gmail {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .servicios__redes__facebook {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 3px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
+
   /* FIN DE PAGINA SERVCIOS*/
 
   /* PAGINA TARIFAS */
@@ -888,73 +605,7 @@ input[type="submit"]:hover {
   td {
     font-size: 15px;
   }
-  .tarifas__footer {
-    background-image: url(../img/mensajeria.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40vh;
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 40px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-  .tarifas__footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px;
-  }
-  .tarifas__redes__instagram {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .tarifas__redes__gmail {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .tarifas__redes__facebook {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 3px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
+
   /* FIN DE PAGINA TARIFAS */
 
   /* PAGINA ZONAS */
@@ -988,74 +639,9 @@ input[type="submit"]:hover {
   .pagina__zonas p:hover {
     transform: scale(1.5);
   }
-  .zonas__footer {
-    background-image: url(../img/mensajeria.png);
-    background-repeat: no-repeat;
-    background-position: center center;
-    height: 40vh;
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 40px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 0;
-  }
-  .zonas__footer__redes {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    width: 100%;
-    animation: movimientoredescontacto 2.5s linear infinite;
-    margin-left: 200px;
-  }
-  .zonas__redes__instagram {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .zonas__redes__gmail {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 15px;
-    margin-left: 30px;
-    padding-left: 10px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
-  .zonas__redes__facebook {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 7px;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    margin-bottom: 3px;
-    margin-left: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    width: 33%;
-  }
+
   /* FIN DE PAGINA ZONAS */
+
   /* FUENTES */
   @font-face {
     font-family: "carbon";
@@ -1101,12 +687,3 @@ input[type="submit"]:hover {
   }
   /* fin de fuentes */
 }
-.footer {
-    padding: 40px 0;
-    background-color: red;
-  }
-  .footer .social {
-    text-align: center;
-    padding-bottom: 25px;
-    color: #ff4b4c4d;
-  }
