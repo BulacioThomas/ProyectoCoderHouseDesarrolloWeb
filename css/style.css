@@ -39,7 +39,7 @@ body {
 .main__primer__parrafo {
   color: rebeccapurple;
   font-style: normal;
-  font-size: 5px;
+  font-size: 10px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
@@ -187,6 +187,7 @@ td {
 }
 
 .section__zonas__p {
+  font-size: 15px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -234,7 +235,7 @@ td {
 .section__contacto__parrafo {
   color: rebeccapurple;
   font-style: normal;
-  font-size: 40px;
+  font-size: 14px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
@@ -250,7 +251,7 @@ form {
   font-weight: normal;
   width: 80vw;
   border: 1px solid #ccc;
-  margin: 20px;
+  margin: 40px;
   padding: 20px;
   display: flex;
   flex-direction: column;
@@ -298,10 +299,8 @@ input[type="submit"]:hover {
 }
 
 /* fin de contenido contacto */
-/* incio de contenido footer */
-
-/* fin de contenido footer */
 /* FIN DE PAGINA INDEX */
+
 /* INICIO DE PAGINA CONTACTO */
 .pagina__contacto {
   display: flex;
@@ -367,6 +366,157 @@ input[type="submit"]:hover {
 }
 
 /* FIN DE PAGINA CONTACTO */
+/* PAGINA NOSOTROS */
+.nosotros__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.nosotros__item h1 {
+  color: blue;
+  font-style: normal;
+  font-size: 3rem;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+  font-weight: normal;
+  padding-top: 70px;
+  display: flex;
+  justify-content: center;
+}
+.nosotros__item h2 {
+  color: blue;
+  font-style: normal;
+  font-size: 3rem;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+  margin-top: -20px;
+}
+.nosotros__item p {
+  color: rebeccapurple;
+  font-size: 15px;
+  font-family: "OpenSansL";
+  text-align: center;
+}
+.nosotros__item__img {
+  animation: movimientoimgprincipal 2.5s linear infinite;
+}
+.nosotros__objetivo__mision {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+}
+.nosotros__objetivo__mision h2 {
+  color: #1668c4;
+  font-style: normal;
+  font-size: 40px;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+}
+.nosotros__objetivo__mision p {
+  color: rebeccapurple;
+  font-size: 15px;
+  font-family: "OpenSansL";
+  line-height: 1.6;
+}
+/* FIN DE PAGINA NOSOTROS */
+
+/* PAGINA SERVICIOS */
+.servicios__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 90px;
+}
+.servicios__titulo {
+  color: blue;
+  font-style: normal;
+  font-size: 23px;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+  font-weight: normal;
+}
+.servicios__lista {
+  color: rebeccapurple;
+  font-style: normal;
+  font-size: 16px;
+  font-family: "OpenSansL";
+  line-height: 1.4;
+  font-weight: normal;
+  transition: all 0.3s;
+}
+.servicios__lista:hover {
+  transform: scale(1.5);
+}
+/* FIN DE PAGINA SERVCIOS*/
+
+/* PAGINA TARIFAS */
+.tarifas__pagina {
+  padding: 70px 15px;
+}
+.tarifas__titulo {
+  color: blue;
+  font-style: normal;
+  font-size: 3rem;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tarifas__titulos__tabla {
+  color: rebeccapurple;
+  font-style: normal;
+  font-size: 20px;
+  font-family: "OpenSansL";
+  text-align: center;
+  line-height: 1.6;
+  font-weight: normal;
+}
+td {
+  font-size: 15px;
+}
+/* FIN DE PAGINA TARIFAS */
+
+/* PAGINA ZONAS */
+.pagina__zonas {
+  color: rebeccapurple;
+  font-style: normal;
+  font-family: "OpenSansL";
+  line-height: 1.6;
+  font-weight: normal;
+  display: flex;
+  flex-direction: column;
+  padding: 100px;
+}
+.zonas__titulo {
+  color: blue;
+  font-style: normal;
+  font-size: 3rem;
+  font-family: "Sanseriffic";
+  line-height: 1.6;
+  font-weight: normal;
+  display: flex;
+  justify-content: center;
+}
+.pagina__zonas p {
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.4s;
+}
+.pagina__zonas p:hover {
+  transform: scale(1.5);
+}
+
 /* keyframes */
 @keyframes movimientoredesindex {
   0% {
@@ -397,7 +547,7 @@ input[type="submit"]:hover {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(10px);
+    transform: translateY(20px);
   }
   100% {
     transform: translateY(0);
@@ -464,8 +614,6 @@ input[type="submit"]:hover {
   form {
     margin-left: 130px;
   }
-  /* incio de contenido footer */
-  /* fin de contenido footer */
   /* INICIO DE PAGINA CONTACTO */
   .contacto__form {
     margin-left: 150px;
@@ -484,128 +632,33 @@ input[type="submit"]:hover {
   }
   /* FIN DE PAGINA CONTACTO */
   /* PAGINA NOSOTROS */
-  .nosotros__container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .nosotros__item h1 {
-    color: blue;
-    font-style: normal;
-    font-size: 3rem;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    padding-top: 70px;
-    display: flex;
-    justify-content: center;
-  }
-  .nosotros__item h2 {
-    color: blue;
-    font-style: normal;
-    font-size: 3rem;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    justify-content: center;
-    margin-top: -20px;
-  }
+
   .nosotros__item p {
-    color: rebeccapurple;
     font-size: 18px;
-    font-family: "OpenSansL";
-  }
-  .nosotros__item__img {
-    animation: movimientoimgprincipal 2.5s linear infinite;
-  }
-  .nosotros__objetivo__mision {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 80vw;
   }
   .nosotros__objetivo__mision h2 {
-    color: #1668c4;
-    font-style: normal;
     font-size: 3rem;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
   }
   .nosotros__objetivo__mision p {
-    color: rebeccapurple;
     font-size: 18px;
-    font-family: "OpenSansL";
-    line-height: 1.6;
   }
 
   /* FIN DE PAGINA NOSOTROS */
 
   /* PAGINA SERVICIOS */
-  .servicios__section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    padding: 90px;
-  }
   .servicios__titulo {
-    color: blue;
-    font-style: normal;
     font-size: 3rem;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
   }
   .servicios__lista {
-    color: rebeccapurple;
-    font-style: normal;
     font-size: 20px;
-    font-family: "OpenSansL";
-    line-height: 1.4;
-    font-weight: normal;
-    transition: all 0.3s;
   }
-  .servicios__lista:hover {
-    transform: scale(1.5);
-  }
-
   /* FIN DE PAGINA SERVCIOS*/
 
   /* PAGINA TARIFAS */
-  .tarifas__pagina {
-    padding: 70px 15px;
-  }
-  .tarifas__titulo {
-    color: blue;
-    font-style: normal;
-    font-size: 3rem;
-    font-family: "Sanseriffic";
-    line-height: 1.6;
-    font-weight: normal;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
   .tarifas__tabla {
     width: 100%;
     height: 100%;
   }
-  .tarifas__titulos__tabla {
-    color: rebeccapurple;
-    font-style: normal;
-    font-size: 20px;
-    font-family: "OpenSansL";
-    text-align: center;
-    line-height: 1.6;
-    font-weight: normal;
-  }
-  td {
-    font-size: 15px;
-  }
-
   /* FIN DE PAGINA TARIFAS */
 
   /* PAGINA ZONAS */
