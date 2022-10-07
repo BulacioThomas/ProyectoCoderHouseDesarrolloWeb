@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -977,15 +978,14 @@ input[type="submit"]:hover {
     display: flex;
     justify-content: center;
   }
-  .pagina__zonas p{
+  .pagina__zonas p {
     font-size: 16px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: all 0.4s;
-
   }
-  .pagina__zonas p:hover{
+  .pagina__zonas p:hover {
     transform: scale(1.5);
   }
   .zonas__footer {
@@ -1101,3 +1101,12 @@ input[type="submit"]:hover {
   }
   /* fin de fuentes */
 }
+.footer {
+    padding: 40px 0;
+    background-color: red;
+  }
+  .footer .social {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #ff4b4c4d;
+  }
