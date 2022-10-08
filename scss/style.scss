@@ -69,10 +69,9 @@ body {
   font-style: normal;
   font-size: 13px;
   font-family: "OpenSansL";
-}
-
-.main__mision h2 {
-  color: #1668c4;
+  h2 {
+    color: #1668c4;
+  }
 }
 
 .main__objetivo {
@@ -80,10 +79,9 @@ body {
   font-style: normal;
   font-size: 13px;
   font-family: "OpenSansL";
-}
-
-.main__objetivo h2 {
-  color: #1668c4;
+  h2 {
+    color: #1668c4;
+  }
 }
 
 /* fin de contenido principal */
@@ -92,48 +90,44 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.section__servicios__titulo {
-  color: blue;
-  font-style: normal;
-  font-size: 3rem;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-}
-
-.section__servicios__lista {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 20px;
-  font-family: "OpenSansL";
-  line-height: 1.4;
-  font-weight: normal;
-  transition: all 0.3s;
-}
-
-.section__servicios__lista:hover {
-  transform: scale(1.5);
+  &__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+  }
+  &__lista {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "OpenSansL";
+    line-height: 1.4;
+    font-weight: normal;
+    transition: all 0.3s;
+  }
+  &__lista:hover {
+    transform: scale(1.5);
+  }
 }
 
 /* fin de contenido servicios */
 /* contenido tarifas */
 .section__tarifas {
   padding: 30px 15px;
-}
-
-.section__tarifas__titulo {
-  color: blue;
-  font-style: normal;
-  font-size: 3rem;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  &__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 .section__tarifa_tabla {
@@ -144,7 +138,7 @@ body {
 .section__tabla__titulos {
   color: rebeccapurple;
   font-style: normal;
-  font-size: 30px;
+  font-size: 18px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
@@ -172,41 +166,37 @@ td {
   font-weight: normal;
   display: flex;
   flex-direction: column;
-}
-
-.section__zonas__titulo {
-  color: blue;
-  font-style: normal;
-  font-size: 3rem;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  display: flex;
-  justify-content: center;
-}
-
-.section__zonas__p {
-  font-size: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 0.4s;
-}
-
-.section__zonas__p:hover {
-  transform: scale(1.5);
-}
-
-.section__zonas__a {
-  color: blue;
-  font-style: normal;
-  font-size: 20px;
-  font-family: "OpenSansB";
-  line-height: 1.6;
-  font-weight: normal;
-  padding: 12px;
-  display: flex;
-  justify-content: center;
+  &__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+  }
+  &__p {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s;
+  }
+  &__p:hover {
+    transform: scale(1.5);
+  }
+  &__a {
+    color: blue;
+    font-style: normal;
+    font-size: 20px;
+    font-family: "OpenSansB";
+    line-height: 1.6;
+    font-weight: normal;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .zonas__mapa {
@@ -218,27 +208,25 @@ td {
 .section__contacto {
   display: flex;
   flex-direction: column;
-}
-
-.section__contacto__titulo {
-  color: blue;
-  font-style: normal;
-  font-size: 3rem;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-  font-weight: normal;
-  display: flex;
-  justify-content: center;
-}
-
-.section__contacto__parrafo {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 14px;
-  font-family: "OpenSansL";
-  text-align: center;
-  line-height: 1.6;
-  font-weight: normal;
+  &__titulo {
+    color: blue;
+    font-style: normal;
+    font-size: 3rem;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+    font-weight: normal;
+    display: flex;
+    justify-content: center;
+  }
+  &__parrafo {
+    color: rebeccapurple;
+    font-style: normal;
+    font-size: 14px;
+    font-family: "OpenSansL";
+    text-align: center;
+    line-height: 1.6;
+    font-weight: normal;
+  }
 }
 
 form {
@@ -417,21 +405,19 @@ input[type="submit"]:hover {
   flex-direction: column;
   align-items: center;
   width: 80vw;
-}
-
-.nosotros__objetivo__mision h2 {
-  color: #1668c4;
-  font-style: normal;
-  font-size: 40px;
-  font-family: "Sanseriffic";
-  line-height: 1.6;
-}
-
-.nosotros__objetivo__mision p {
-  color: rebeccapurple;
-  font-size: 15px;
-  font-family: "OpenSansL";
-  line-height: 1.6;
+  h2 {
+    color: #1668c4;
+    font-style: normal;
+    font-size: 40px;
+    font-family: "Sanseriffic";
+    line-height: 1.6;
+  }
+  p {
+    color: rebeccapurple;
+    font-size: 15px;
+    font-family: "OpenSansL";
+    line-height: 1.6;
+  }
 }
 
 /* FIN DE PAGINA NOSOTROS */
@@ -462,10 +448,9 @@ input[type="submit"]:hover {
   line-height: 1.4;
   font-weight: normal;
   transition: all 0.3s;
-}
-
-.servicios__lista:hover {
-  transform: scale(1.5);
+  &:hover {
+    transform: scale(1.5);
+  }
 }
 
 /* FIN DE PAGINA SERVCIOS*/
@@ -514,6 +499,13 @@ td {
   display: flex;
   flex-direction: column;
   padding: 100px;
+  p {
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.4s;
+  }
 }
 
 .zonas__titulo {
@@ -525,14 +517,6 @@ td {
   font-weight: normal;
   display: flex;
   justify-content: center;
-}
-
-.pagina__zonas p {
-  font-size: 16px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  transition: all 0.4s;
 }
 
 .pagina__zonas p:hover {
@@ -724,6 +708,13 @@ td {
     display: flex;
     flex-direction: column;
     padding: 100px;
+    p {
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.4s;
+    }
   }
 
   .zonas__titulo {
@@ -735,14 +726,6 @@ td {
     font-weight: normal;
     display: flex;
     justify-content: center;
-  }
-
-  .pagina__zonas p {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.4s;
   }
 
   .pagina__zonas p:hover {
