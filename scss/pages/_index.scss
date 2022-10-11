@@ -5,7 +5,7 @@
   font-family: "Sanseriffic";
   line-height: 1.6;
   font-weight: normal;
-  padding: 80px 30px 45px;
+  padding: 80px;
   display: flex;
   justify-content: center;
 }
@@ -14,10 +14,10 @@
   color: blue;
   font-style: normal;
   font-size: 3rem;
-  font-family: "OpenSansB";
+  font-family: "Sanseriffic";
   line-height: 1.6;
   font-weight: normal;
-  margin-top: -20%;
+  margin-top: -95px;
   display: flex;
   justify-content: center;
 }
@@ -25,11 +25,12 @@
 .main__primer__parrafo {
   color: rebeccapurple;
   font-style: normal;
-  font-size: 10px;
+  font-size: 15px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
   font-weight: normal;
+  margin: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;

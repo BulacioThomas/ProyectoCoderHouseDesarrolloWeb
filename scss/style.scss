@@ -1,4 +1,5 @@
 // Include any default variable overrides here (though functions won't be available)
+@import "./complements/variables";
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
@@ -9,8 +10,7 @@
 @import "./pages/servicios";
 @import "./pages/tarifas";
 @import "./pages/zonas";
-
-
+@import "./complements/bucles";
 
 * {
   margin: 0;
@@ -23,7 +23,6 @@ body {
   background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);
   background: linear-gradient(to left, #f2fcfe, #1c92d2);
 }
-
 
 /* keyframes */
 @keyframes movimientoredesindex {
@@ -69,84 +68,69 @@ body {
 }
 
 /* fin keyframes */
-@media (min-width: 768px) {
-  .main__header {
-    flex-direction: row;
-    justify-content: space-around;
+
+@keyframes movimientoredescontacto {
+  0% {
+    transform: translateY(0);
   }
 
-  .main__segundo__subtitulo {
-    margin-top: -80px;
+  50% {
+    transform: translateY(20px);
+  }
+
+  100% {
+    transform: translateY(0);
   }
 }
 
-@media (min-width: 992px) {
-  
-  @keyframes movimientoredescontacto {
-    0% {
-      transform: translateY(0);
-    }
-
-    50% {
-      transform: translateY(20px);
-    }
-
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-
-
-  /* FUENTES */
-  @font-face {
-    font-family: "carbon";
-    src: url(../fonts/CARBON-DROID.ttf);
-    font-style: normal;
-    font-weight: 200;
-  }
-
-  @font-face {
-    font-family: "omel";
-    src: url(../fonts/Omelette.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "Masking";
-    src: url(../fonts/MaskiNgSchOOL.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "Sanseriffic";
-    src: url(../fonts/Sanseriffic.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "OpenSansR";
-    src: url(../fonts/OpenSans-Regular.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "OpenSansB";
-    src: url(../fonts/OpenSans-Bold.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  @font-face {
-    font-family: "OpenSansL";
-    src: url(../fonts/OpenSans-Light.ttf);
-    font-style: normal;
-    font-weight: normal;
-  }
-
-  /* fin de fuentes */
+/* FUENTES */
+@font-face {
+  font-family: "carbon";
+  src: url(../fonts/CARBON-DROID.ttf);
+  font-style: normal;
+  font-weight: 200;
 }
+
+@font-face {
+  font-family: "omel";
+  src: url(../fonts/Omelette.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Masking";
+  src: url(../fonts/MaskiNgSchOOL.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Sanseriffic";
+  src: url(../fonts/Sanseriffic.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansR";
+  src: url(../fonts/OpenSans-Regular.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansB";
+  src: url(../fonts/OpenSans-Bold.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "OpenSansL";
+  src: url(../fonts/OpenSans-Light.ttf);
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* fin de fuentes */
