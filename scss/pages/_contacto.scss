@@ -67,8 +67,13 @@
 }
 
 
+@media (min-width: 768px){
+  .contacto__form{
+    margin-left: 70px;
+  }
+}
 @media (min-width: 992px) {
-    .contacto__form {
-      margin-left: 150px;
-    }
+  .contacto__form{
+    margin-left: 150px;
+  }
 }

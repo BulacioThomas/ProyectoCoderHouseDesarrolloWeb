@@ -308,6 +308,13 @@ input[type="submit"]:hover {
 }
 
 /* fin de contenido contacto */
+@media (min-width: 768px){
+  form {
+    margin-left: 80px;
+  }
+
+}
+
 @media (min-width: 992px) {
   /* contenido principal */
   .main__primer__titulo {
@@ -370,6 +377,7 @@ input[type="submit"]:hover {
 
   /* fin de contenido contacto */
   form {
-    margin-left: 130px;
+    margin-left: 150px;
   }
 }
+
