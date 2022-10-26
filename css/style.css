@@ -4,6 +4,7 @@
    * Copyright 2011-2022 Twitter, Inc.
    * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
    */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -8387,7 +8388,7 @@ textarea.form-control-lg {
     display: none !important; } }
 
 .main__primer__titulo {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -8398,9 +8399,8 @@ textarea.form-control-lg {
   justify-content: center; }
 
 .main__segundo__subtitulo {
-  color: blue;
+  color: #000;
   font-style: normal;
-  font-size: 3rem;
   font-family: "Sanseriffic";
   line-height: 1.6;
   font-weight: normal;
@@ -8409,7 +8409,7 @@ textarea.form-control-lg {
   justify-content: center; }
 
 .main__primer__parrafo {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 15px;
   font-family: "OpenSansL";
@@ -8435,7 +8435,7 @@ textarea.form-control-lg {
   padding: 40px; }
 
 .main__mision {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 13px;
   font-family: "OpenSansL"; }
@@ -8443,7 +8443,7 @@ textarea.form-control-lg {
     color: #1668c4; }
 
 .main__objetivo {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 13px;
   font-family: "OpenSansL"; }
@@ -8457,14 +8457,13 @@ textarea.form-control-lg {
   flex-direction: column;
   align-items: center; }
   .section__servicios__titulo {
-    color: blue;
+    color: #000;
     font-style: normal;
-    font-size: 3rem;
     font-family: "Sanseriffic";
     line-height: 1.6;
     font-weight: normal; }
   .section__servicios__lista {
-    color: rebeccapurple;
+    color: #000;
     font-style: normal;
     font-size: 20px;
     font-family: "OpenSansL";
@@ -8479,7 +8478,7 @@ textarea.form-control-lg {
 .section__tarifas {
   padding: 30px 15px; }
   .section__tarifas__titulo {
-    color: blue;
+    color: #000;
     font-style: normal;
     font-size: 3rem;
     font-family: "Sanseriffic";
@@ -8495,7 +8494,7 @@ textarea.form-control-lg {
   height: 100%; }
 
 .section__tabla__titulos {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 18px;
   font-family: "OpenSansL";
@@ -8504,7 +8503,7 @@ textarea.form-control-lg {
   font-weight: normal; }
 
 td {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 30px;
   font-family: "OpenSansL";
@@ -8515,7 +8514,7 @@ td {
 /* fin de contenido tarifa */
 /* contenido zonas */
 .section__zonas {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 30px;
   font-family: "OpenSansL";
@@ -8524,7 +8523,7 @@ td {
   display: flex;
   flex-direction: column; }
   .section__zonas__titulo {
-    color: blue;
+    color: #000;
     font-style: normal;
     font-size: 3rem;
     font-family: "Sanseriffic";
@@ -8537,11 +8536,12 @@ td {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transition: all 0.4s; }
+    transition: all 0.4s;
+    margin-bottom: -400px; }
   .section__zonas__p:hover {
     transform: scale(1.5); }
   .section__zonas__a {
-    color: blue;
+    color: #000;
     font-style: normal;
     font-size: 20px;
     font-family: "OpenSansB";
@@ -8560,7 +8560,7 @@ td {
   display: flex;
   flex-direction: column; }
   .section__contacto__titulo {
-    color: blue;
+    color: #000;
     font-style: normal;
     font-size: 3rem;
     font-family: "Sanseriffic";
@@ -8569,7 +8569,7 @@ td {
     display: flex;
     justify-content: center; }
   .section__contacto__parrafo {
-    color: rebeccapurple;
+    color: #000;
     font-style: normal;
     font-size: 14px;
     font-family: "OpenSansL";
@@ -8577,54 +8577,61 @@ td {
     line-height: 1.6;
     font-weight: normal; }
 
-form {
-  color: rebeccapurple;
-  font-style: normal;
-  font-family: "OpenSansL";
-  text-align: center;
-  line-height: 1.6;
-  font-weight: normal;
-  width: 80vw;
-  border: 1px solid #ccc;
-  margin: 40px;
-  padding: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center; }
-
-label {
-  font-size: 20px;
-  display: block;
-  width: 100%; }
-
-textarea {
-  resize: vertical;
-  max-height: 300px;
-  min-height: 100px; }
-
-input,
-textarea {
-  margin-bottom: 20px;
+.contact-container {
+  max-width: 960px;
+  margin: auto;
   width: 100%;
-  padding: 10px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  border: 1px solid #ccc; }
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  background: #363953;
+  border-radius: 0.5rem;
+  overflow: hidden; }
 
-input:focus,
-textarea:focus {
-  border: 1px solid #1668c4; }
+.form-container {
+  padding: 20px; }
 
-input[type="submit"] {
-  margin-bottom: 0;
-  background-color: #1668c4;
+.form-container h3, .form-container .h3 {
   color: #fff;
-  border: none; }
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem; }
 
-input[type="submit"]:hover {
-  background: #74a8e4;
+.contact-form {
+  display: grid;
+  row-gap: 1rem; }
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: #2c2f48;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+  border-radius: 0.4rem; }
+
+.contact-form textarea {
+  resize: none;
+  height: 200px; }
+
+.contact-form .send-button {
+  border: none;
+  outline: none;
+  background: #00dbde;
+  font-size: 1rem;
+  font-weight: 500;
+  text-transform: uppercase;
   cursor: pointer; }
+
+.contact-form .send-button:hover {
+  background: rgba(0, 221, 224, 0.8);
+  transition: 0.3s all linear; }
+
+.map iframe {
+  width: 100%;
+  height: 100%; }
 
 .sfooter {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -8655,12 +8662,30 @@ input[type="submit"]:hover {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595f; }
+
+.telefono {
+  margin-top: 15px;
+  margin-left: 100px;
+  color: #54595f; }
 
 /* fin de contenido contacto */
 @media (min-width: 768px) {
   form {
     margin-left: 80px; } }
+
+@media (max-width: 964px) {
+  .contact-container {
+    margin: 0 auto;
+    width: 90%; } }
+
+@media (max-width: 700px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 20rem !important; }
+  .map iframe {
+    height: 400px; } }
 
 @media (min-width: 992px) {
   /* contenido principal */
@@ -8668,6 +8693,7 @@ input[type="submit"]:hover {
     margin-top: -70px;
     padding: 180px 30px 45px; }
   .main__segundo__subtitulo {
+    font-size: 3rem;
     margin-top: -5%; }
   .main__primer__parrafo {
     font-size: 22px; }
@@ -8689,20 +8715,27 @@ input[type="submit"]:hover {
     font-size: 70px; }
   /* fin de contenido principal */
   /* inicio de contenido servicios */
+  .section__servicios__titulo {
+    font-size: 3rem; }
   .section__servicios__lista {
     font-size: 20px;
     line-height: 1.6; }
   /* fin de contenido servicios */
   /* contenido zonas */
   .section__zonas__p {
-    font-size: 20px; }
+    font-size: 20px;
+    margin-bottom: 0px; }
   /* fin contenido zonas */
   /* contenido contacto */
   .section__contacto__parrafo {
     font-size: 20px; }
   /* fin de contenido contacto */
   form {
-    margin-left: 150px; } }
+    margin-left: 150px; }
+  .telefono {
+    margin-top: 15px;
+    margin-left: 720px;
+    color: #54595f; } }
 
 /* INICIO DE PAGINA CONTACTO */
 .pagina__contacto {
@@ -8711,7 +8744,7 @@ input[type="submit"]:hover {
   margin-top: 60px; }
 
 .contacto__titulo {
-  color: blue;
+  color: #54595F;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -8721,13 +8754,14 @@ input[type="submit"]:hover {
   justify-content: center; }
 
 .contacto__parrafo {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 20px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
-  font-weight: normal; }
+  font-weight: normal;
+  margin-bottom: -1000px; }
 
 .contacto__form {
   margin-left: 30px; }
@@ -8761,13 +8795,28 @@ input[type="submit"]:hover {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595F; }
 
 @media (min-width: 768px) {
   .contacto__form {
     margin-left: 70px; } }
 
+@media (max-width: 964px) {
+  .contact-container {
+    margin: 0 auto;
+    width: 90%; } }
+
+@media (max-width: 700px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 20rem !important; }
+  .map iframe {
+    height: 400px; } }
+
 @media (min-width: 992px) {
+  .contacto__parrafo {
+    margin: 0; }
   .contacto__form {
     margin-left: 150px; } }
 
@@ -8779,7 +8828,7 @@ input[type="submit"]:hover {
   align-items: center; }
 
 .nosotros__item h1, .nosotros__item .h1 {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -8790,7 +8839,7 @@ input[type="submit"]:hover {
   justify-content: center; }
 
 .nosotros__item h2, .nosotros__item .h2 {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -8801,7 +8850,7 @@ input[type="submit"]:hover {
   margin-top: -20px; }
 
 .nosotros__item p {
-  color: rebeccapurple;
+  color: #000;
   font-size: 15px;
   font-family: "OpenSansL";
   margin: 10px;
@@ -8822,7 +8871,7 @@ input[type="submit"]:hover {
     font-family: "Sanseriffic";
     line-height: 1.6; }
   .nosotros__objetivo__mision p {
-    color: rebeccapurple;
+    color: #000;
     font-size: 15px;
     font-family: "OpenSansL";
     line-height: 1.6; }
@@ -8856,7 +8905,7 @@ input[type="submit"]:hover {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595F; }
 
 /* FIN DE PAGINA NOSOTROS */
 @media (min-width: 992px) {
@@ -8874,58 +8923,16 @@ input[type="submit"]:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-  padding: 90px; }
+  margin: 30px;
+  padding: 50px; }
 
 .servicios__titulo {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 23px;
   font-family: "Sanseriffic";
   line-height: 1.6;
   font-weight: normal; }
-
-.servicios__lista {
-  color: rebeccapurple;
-  font-style: normal;
-  font-size: 16px;
-  font-family: "OpenSansL";
-  line-height: 1.4;
-  font-weight: normal;
-  transition: all 0.3s; }
-  .servicios__lista:hover {
-    transform: scale(1.5); }
-
-.containers {
-  width: 100%;
-  max-width: 1200;
-  height: 430px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: auto; }
-
-.containers .cards {
-  width: 330px;
-  height: 430px;
-  border-radius: 8px;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-  overflow: hidden;
-  margin: 20px;
-  padding: 20px;
-  text-align: center;
-  transition: all 0.25s; }
-
-.containers .cards:hover {
-  transform: translateY(-15px);
-  box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2); }
-
-.containers .cards img {
-  width: 330px;
-  height: 220px; }
-
-.containers .cardsh4 {
-  font-weight: 600; }
 
 .sfooter {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -8957,14 +8964,12 @@ input[type="submit"]:hover {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595F; }
 
 /* PAGINA SERVICIOS */
 @media (min-width: 992px) {
   .servicios__titulo {
     font-size: 3rem; }
-  .servicios__lista {
-    font-size: 20px; }
   /* FIN DE PAGINA SERVCIOS*/ }
 
 /* PAGINA TARIFAS */
@@ -8972,7 +8977,7 @@ input[type="submit"]:hover {
   padding: 70px 15px; }
 
 .tarifas__titulo {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -8984,7 +8989,7 @@ input[type="submit"]:hover {
   align-items: center; }
 
 .tarifas__titulos__tabla {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 20px;
   font-family: "OpenSansL";
@@ -9024,7 +9029,7 @@ td {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595F; }
 
 @media (min-width: 768px) {
   .tarifas__tabla {
@@ -9039,7 +9044,7 @@ td {
 
 /* PAGINA ZONAS */
 .pagina__zonas {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-family: "OpenSansL";
   line-height: 1.6;
@@ -9055,7 +9060,7 @@ td {
     transition: all 0.4s; }
 
 .zonas__titulo {
-  color: blue;
+  color: #000;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -9096,12 +9101,12 @@ td {
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple; }
+  color: #54595F; }
 
 @media (min-width: 992px) {
   /* PAGINA ZONAS */
   .pagina__zonas {
-    color: rebeccapurple;
+    color: #000;
     font-style: normal;
     font-family: "OpenSansL";
     line-height: 1.6;
@@ -9116,7 +9121,7 @@ td {
       align-items: center;
       transition: all 0.4s; }
   .zonas__titulo {
-    color: blue;
+    color: #000;
     font-style: normal;
     font-size: 3rem;
     font-family: "Sanseriffic";
@@ -9164,9 +9169,7 @@ td {
   box-sizing: border-box; }
 
 body {
-  background: #1c92d2;
-  background: -webkit-linear-gradient(to left, #f2fcfe, #1c92d2);
-  background: linear-gradient(to left, #f2fcfe, #1c92d2); }
+  background: #fff; }
 
 /* keyframes */
 @keyframes movimientoredesindex {
@@ -9187,11 +9190,11 @@ body {
 
 @keyframes movimientoimgprincipal {
   0% {
-    transform: translateY(0); }
+    transform: translateX(0); }
   50% {
-    transform: translateY(20px); }
+    transform: translateX(10px); }
   100% {
-    transform: translateY(0); } }
+    transform: translateX(0); } }
 
 /* fin keyframes */
 @keyframes movimientoredescontacto {

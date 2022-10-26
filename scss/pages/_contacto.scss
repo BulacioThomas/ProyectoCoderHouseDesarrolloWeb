@@ -6,7 +6,7 @@
 }
 
 .contacto__titulo {
-  color: blue;
+  color: #54595F;;
   font-style: normal;
   font-size: 3rem;
   font-family: "Sanseriffic";
@@ -17,13 +17,14 @@
 }
 
 .contacto__parrafo {
-  color: rebeccapurple;
+  color: #000;
   font-style: normal;
   font-size: 20px;
   font-family: "OpenSansL";
   text-align: center;
   line-height: 1.6;
   font-weight: normal;
+  margin-bottom: -1000px;
 }
 
 .contacto__form {
@@ -63,7 +64,7 @@
   margin-top: 15px;
   text-align: center;
   font-size: 13px;
-  color: rebeccapurple;
+  color: #54595F;
 }
 
 
@@ -72,8 +73,28 @@
     margin-left: 70px;
   }
 }
+@media (max-width: 964px) {
+  .contact-container {
+    margin: 0 auto;
+    width: 90%;
+  }
+}
+@media (max-width: 700px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 20rem !important;
+  }
+  .map iframe {
+    height: 400px;
+  }
+}
 @media (min-width: 992px) {
+  .contacto__parrafo {
+    margin: 0;
+  }
   .contacto__form{
     margin-left: 150px;
   }
+  
 }
